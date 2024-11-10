@@ -51,7 +51,7 @@ document.querySelector('button[type="submit"]')
     phoneLabelSpan.style.display = 'none'
     successMessage.style.display = 'block'
     isPhoneRequired = false
-    scroll(0,0)
+    scrol(0,0)
     hideMessageAfterTimeout(successMessage)
   }, false)
 
